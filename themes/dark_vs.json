@@ -23,7 +23,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#7ca668"
+				"foreground": "#608b4e"
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 		{
 			"scope": "constant.regexp",
 			"settings": {
-				"foreground": "#b46695"
+				"foreground": "#646695"
 			}
 		},
 		{
@@ -89,13 +89,15 @@
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#569cd6"
 			}
 		},
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#6796e6"
+				"fontStyle": "bold",
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -123,13 +125,32 @@
 			}
 		},
 		{
+			"scope": "markup.punctuation.quote.beginning",
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": "markup.punctuation.list.beginning",
+			"settings": {
+				"foreground": "#6796e6"
+			}
+		},
+		{
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
 			"scope": "meta.selector",
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
 		},
 		{
-			"scope": "meta.tag",
+			"name": "brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
 			"settings": {
 				"foreground": "#808080"
 			}
@@ -156,6 +177,12 @@
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": "meta.header.diff",
+			"settings": {
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -201,9 +228,16 @@
 			}
 		},
 		{
+			"name": "JavaScript string interpolation ${}",
+			"scope": "string.template-expression",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -219,19 +253,13 @@
 			}
 		},
 		{
-			"scope": "keyword.control.less",
-			"settings": {
-				"foreground": "#d7ba7d"
-			}
-		},
-		{
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#d4d4d4"
 			}
 		},
 		{
-			"scope": "keyword.operator.new",
+			"scope": ["keyword.operator.new", "keyword.operator.expression"],
 			"settings": {
 				"foreground": "#569cd6"
 			}
@@ -243,9 +271,16 @@
 			}
 		},
 		{
+			"name": "coloring of the PHP start and end tag (<?php and ?>)",
+			"scope": ["punctuation.section.embedded.begin.metatag.php", "punctuation.section.embedded.end.metatag.php"],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
 			"scope": "support.function.git-rebase",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -259,6 +294,13 @@
 			"scope": ["storage.modifier.import.java", "storage.modifier.package.java"],
 			"settings": {
 				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#569cd6"
 			}
 		}
 	]
