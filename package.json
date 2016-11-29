@@ -1,9 +1,9 @@
 {
-    "name": "Darkplusix",
-    "displayName": "Darkplusix",
-    "description": "Extension of dark plus default theme for better elixir coloring",
+    "name": "Darkplusix-zh",
+    "displayName": "Darkplusix-zh",
+    "description": "Extension of darkplusix theme by thonymg for better elixir coloring",
     "version": "0.1.1",
-    "publisher": "thonymg",
+    "publisher": "zombiehippie",
     "engines": {
         "vscode": "^1.4.0"
     },
@@ -13,7 +13,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Darkplusix",
+                "label": "Darkplusix-zh",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darkplusix.json"
             }
